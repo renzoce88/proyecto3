@@ -1,0 +1,27 @@
+section {
+
+    .bloque2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .titulos2 {
+            margin: auto;
+        }
+
+        .imagTrabajo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 45px 10px;
+
+            .imag {
+                padding: 10px;
+                width: 100%;
+            }
+        }
+
+
+    }
+}

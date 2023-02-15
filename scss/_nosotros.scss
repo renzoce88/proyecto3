@@ -1,0 +1,78 @@
+.busquedasRelacion {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+    .listaBusquedas {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+        ul {
+            padding: 0;
+            li {
+                list-style-type: none;
+            }
+        }
+
+    }
+
+}
+
+
+.decora {
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+
+
+    .estilodec {
+        margin: auto;
+        text-align: center;
+        padding: 0px 10px;
+
+
+        .estiloDeco {
+            text-align: start;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 150%;
+        }
+    }
+
+
+}
+
+.decoraBrand {
+    background-color: darkgrey;
+    padding: 100px 0px;
+
+
+    .estilodecbrand {
+        margin: auto;
+        text-align: start;
+        padding: 0px 10px;
+    }
+
+
+}
+
+.nosotrosImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .imagtam{
+        padding: 5px 0px;
+    }
+}
+
+.porqueText{
+    margin: auto;
+    text-align: center;
+    padding: 100px 10px;
+    text-align: start;
+
+}

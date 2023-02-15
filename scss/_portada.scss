@@ -1,0 +1,34 @@
+main {
+
+    .nosotros1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 90vh;
+
+        .left{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            text-align: start;
+            padding: 0px 10px;
+        }
+    }
+
+
+    .bloque {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 90vh;
+    }
+
+    .imagtam {
+        width: 100%;
+    }
+
+}
