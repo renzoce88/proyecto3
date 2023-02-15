@@ -1,6 +1,6 @@
 main {
 
-    .nosotros1{
+    .nosotros1 {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -8,7 +8,7 @@ main {
         text-align: center;
         height: 90vh;
 
-        .left{
+        .left {
             display: flex;
             flex-direction: column;
             gap: 50px;
@@ -17,18 +17,20 @@ main {
         }
     }
 
+}
 
-    .bloque {
+main {
+    .portada {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
         height: 90vh;
-    }
 
-    .imagtam {
-        width: 100%;
+        .imagtam {
+            width: 100%;
+        }
     }
 
 }

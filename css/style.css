@@ -30,7 +30,8 @@ main .nosotros1 .left {
   text-align: start;
   padding: 0px 10px;
 }
-main .bloque {
+
+main .portada {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,7 +39,7 @@ main .bloque {
   text-align: center;
   height: 90vh;
 }
-main .imagtam {
+main .portada .imagtam {
   width: 100%;
 }
 
@@ -214,9 +215,11 @@ a {
   main .bloque {
     max-width: 1200px;
     margin: auto;
+    display: flex;
   }
   main .bloque .portada {
     display: flex;
+    flex-direction: row;
   }
   main .bloque .portada .left {
     display: flex;
