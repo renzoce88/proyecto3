@@ -76,6 +76,7 @@ section .bloque2 {
 }
 section .bloque2 .titulos2 {
   margin: auto;
+  padding-top: 50px;
 }
 section .bloque2 .imagTrabajo {
   display: flex;
@@ -174,6 +175,11 @@ a {
 
 .weight300 {
   font-weight: 300;
+}
+
+.weight700 {
+  font-weight: 700;
+  font-size: 28px;
 }
 
 @media (min-width: 1200px) {
