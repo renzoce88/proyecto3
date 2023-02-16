@@ -10,3 +10,10 @@ body{
 .imagtam {
     width: 100%;
 }
+
+.imag:hover{
+    filter: grayscale(0.2);
+    transform: scale(1.05);
+    transition: 0.3s;
+
+}

@@ -11,6 +11,12 @@ body {
   width: 100%;
 }
 
+.imag:hover {
+  filter: grayscale(0.2);
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
 header a span {
   font-weight: 700;
 }
@@ -76,7 +82,7 @@ section .bloque2 {
   justify-content: center;
 }
 section .bloque2 .titulos2 {
-  margin: auto;
+  text-align: center;
   padding-top: 50px;
 }
 section .bloque2 .imagTrabajo {
@@ -290,6 +296,12 @@ a {
     max-width: 1200px;
     margin: auto;
     margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+  section .bloque2 .titulos2 {
+    text-align: start;
+    padding: 30px 0px;
   }
   section .bloque2 .imagTrabajo {
     display: grid;
