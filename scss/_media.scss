@@ -226,7 +226,7 @@
 
 
     .decora {
-        background-color: darkgrey;
+        background-color: $background-color_1;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -247,7 +247,7 @@
     }
 
     .decoraBrand {
-        background-color: darkgrey;
+        background-color: $background-color_1;
         padding: 100px 0px;
 
         
