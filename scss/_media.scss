@@ -291,4 +291,23 @@
 
     }
 
+    .fixe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 90px;
+        height: 80px;
+        width: 80px;
+        background: rgba(151, 199, 161, 0.26);
+        position: fixed;
+        top: 800px;
+        left: 1600px;
+        
+        .fixed1 {
+            display: flex;
+            width: 50px;
+        }
+    
+    }
+
 }

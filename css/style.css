@@ -17,6 +17,10 @@ body {
   transition: 0.3s;
 }
 
+.fixe {
+  display: none;
+}
+
 header a span {
   font-weight: 700;
 }
@@ -418,6 +422,22 @@ a {
     display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+  .fixe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+    height: 80px;
+    width: 80px;
+    background: rgba(151, 199, 161, 0.26);
+    position: fixed;
+    top: 800px;
+    left: 1600px;
+  }
+  .fixe .fixed1 {
+    display: flex;
+    width: 50px;
   }
 }
 
